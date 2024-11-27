@@ -1,0 +1,66 @@
+{
+  "name": "devextreme-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The DevExtreme Diagram provides a visual interface to be used when you design new diagrams or modify existing ones. This control is available as a jQuery plugin and can be bound to external data. The Diagram provides more than 40 resizable shapes, which you can drag and drop onto a page. Shapes and connectors are highly customizable.",
+  "dependencies": {
+    "@devextreme/runtime": "3.0.13",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.120",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "devexpress-diagram": "2.2.13",
+    "devexpress-gantt": "4.1.56",
+    "devextreme": "24.1.7",
+    "devextreme-cldr-data": "1.0.3",
+    "devextreme-quill": "1.7.1",
+    "devextreme-react": "24.1.7",
+    "es6-object-assign": "1.1.0",
+    "inferno": "7.4.11",
+    "inferno-clone-vnode": "latest",
+    "inferno-compat": "latest",
+    "inferno-create-class": "latest",
+    "inferno-create-element": "7.4.11",
+    "inferno-dom": "latest",
+    "inferno-extras": "latest",
+    "inferno-hydrate": "7.4.11",
+    "jszip": "3.10.1",
+    "luxon": "1.28.1",
+    "prettier": "2.8.8",
+    "prop-types": "15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "rrule": "2.6.4",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "whatwg-fetch": "2.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
