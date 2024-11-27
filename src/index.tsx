@@ -1,15 +1,9 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
+import ReactDOM from 'react-dom/client'; // For React 18+
 import App from './App';
+import "./index.css"
+// Ensure that 'app' element exists in your HTML
+const root = ReactDOM.createRoot(document.getElementById('app') as HTMLElement);
 
-import themes from 'devextreme/ui/themes';
-
-themes.initialized(() => {
-  const container = document.getElementById('app');
-  if (container) {
-    const root = createRoot(container); // Create React root
-    root.render(<App />); // Render the app
-  } else {
-    console.error('Failed to find the root element');
-  }
-});
+// Rendering the app
+root.render(<App />);

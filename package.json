@@ -5,6 +5,10 @@
   "description": "The DevExtreme Diagram provides a visual interface to be used when you design new diagrams or modify existing ones. This control is available as a jQuery plugin and can be bound to external data. The Diagram provides more than 40 resizable shapes, which you can drag and drop onto a page. Shapes and connectors are highly customizable.",
   "dependencies": {
     "@devextreme/runtime": "3.0.13",
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/icons-material": "^6.1.8",
+    "@mui/material": "^6.1.8",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
