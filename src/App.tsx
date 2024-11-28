@@ -22,16 +22,17 @@ export default function App() {
   }, []);
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', height: '90vh' }}>
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
       <Header />
       <div style={{ flex: 1 }}>
         <Diagram
           id="diagram"
           ref={diagramRef}
           autoZoomMode="fitWidth"
-          style={{ height: '100%' }} // Ensure the diagram takes full height
+          style={{ height: 'calc(100vh - 99.5px)' }} // Ensure the diagram takes full height
         />
       </div>
     </div>
   );
+  
 }

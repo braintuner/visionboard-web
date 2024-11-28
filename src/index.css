@@ -1,6 +1,17 @@
+:root {
+  --lucid-theme-font-family: 'Graphik LC Web', sans-serif;
+}
+body {
+  font-family: var(--lucid-theme-font-family, 'Graphik LC Web', sans-serif);
+}
+
 #diagram {
   height: 900px;
 }
 dx-license {
   display: none !important;
+}
+
+.dx-diagram-floating-toolbar-container {
+  top: -100px !important; /* Adjust the value as needed */
 }

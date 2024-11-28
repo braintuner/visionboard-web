@@ -1,3 +1,14 @@
+/* lucid */
+body {
+  background-color: #fff;
+  font-family: var(--lucid-theme-font-family, 'Graphik LC Web', sans-serif);
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+}
+
+
+
 /* App.css */
 
 .app-container {
