@@ -1,246 +1,210 @@
 {
 	"page": {
-	  "width": 8391,
-	  "height": 11907,
-	  "pageWidth": 8391,
-	  "pageHeight": 11906,
-	  "pageLandscape": false,
-	  "gridSize": 180,
-	  "snapToGrid": true
+		"width": 8391,
+		"height": 11907,
+		"pageWidth": 8391,
+		"pageHeight": 11906,
+		"pageLandscape": false,
+		"gridSize": 180,
+		"snapToGrid": true
 	},
 	"connectors": [
-	  {
-		"key": "116",
-		"points": [
-		  { "x": 2160, "y": 1800 },
-		  { "x": 2160, "y": 2340 }
-		],
-		"zIndex": 0,
-		"beginItemKey": "107",
-		"beginConnectionPointIndex": 2,
-		"endItemKey": "108",
-		"endConnectionPointIndex": 0
-	  },
-	  {
-		"key": "117",
-		"points": [
-		  { "x": 2160, "y": 3420 },
-		  { "x": 2160, "y": 3960 }
-		],
-		"zIndex": 0,
-		"beginItemKey": "108",
-		"beginConnectionPointIndex": 2,
-		"endItemKey": "118",
-		"endConnectionPointIndex": 0
-	  },
-	  {
-		"key": "122",
-		"points": [
-		  { "x": 3420, "y": 4680 },
-		  { "x": 5760, "y": 4680 }
-		],
-		"zIndex": 0,
-		"texts": { "0.45": "Feasibility Study" },
-		"beginItemKey": "118",
-		"beginConnectionPointIndex": 1,
-		"endItemKey": "121",
-		"endConnectionPointIndex": 3
-	  },
-	  {
-		"key": "123",
-		"points": [
-		  { "x": 6840, "y": 4140 },
-		  { "x": 3420, "y": 2880 }
-		],
-		"zIndex": 0,
-		"beginItemKey": "121",
-		"beginConnectionPointIndex": 0,
-		"endItemKey": "108",
-		"endConnectionPointIndex": 1
-	  },
-	  {
-		"key": "126",
-		"points": [
-		  { "x": 3780, "y": 9180 },
-		  { "x": 2880, "y": 10440 }
-		],
-		"zIndex": 0,
-		"texts": { "0.78": "Prepare Colony Infrastructure" },
-		"beginItemKey": "120",
-		"beginConnectionPointIndex": 3,
-		"endItemKey": "125",
-		"endConnectionPointIndex": 0
-	  },
-	  {
-		"key": "130",
-		"points": [
-		  { "x": 5220, "y": 9180 },
-		  { "x": 6120, "y": 10440 }
-		],
-		"zIndex": 0,
-		"texts": { "0.77": "Launch First Manned Mission" },
-		"beginItemKey": "120",
-		"beginConnectionPointIndex": 1,
-		"endItemKey": "127",
-		"endConnectionPointIndex": 0
-	  },
-	  {
-		"key": "132",
-		"points": [
-		  { "x": 2160, "y": 5400 },
-		  { "x": 2160, "y": 6120 }
-		],
-		"zIndex": 0,
-		"texts": { "0.47": "Terraforming Begin" },
-		"beginItemKey": "118",
-		"beginConnectionPointIndex": 2,
-		"endItemKey": "131",
-		"endConnectionPointIndex": 0
-	  },
-	  {
-		"key": "124",
-		"points": [
-		  { "x": 2160, "y": 7200 },
-		  { "x": 4500, "y": 8820 }
-		],
-		"zIndex": 0,
-		"beginItemKey": "131",
-		"beginConnectionPointIndex": 2,
-		"endItemKey": "120",
-		"endConnectionPointIndex": 0
-	  },
-	  {
-		"key": "134",
-		"points": [
-		  { "x": 3420, "y": 6660 },
-		  { "x": 5760, "y": 6660 }
-		],
-		"zIndex": 0,
-		"texts": { "0.5": "Start Expansion" },
-		"beginItemKey": "131",
-		"beginConnectionPointIndex": 1,
-		"endItemKey": "133",
-		"endConnectionPointIndex": 3
-	  },
-	  {
-		"key": "135",
-		"points": [
-		  { "x": 6840, "y": 7200 },
-		  { "x": 4500, "y": 8820 }
-		],
-		"zIndex": 0,
-		"beginItemKey": "133",
-		"beginConnectionPointIndex": 2,
-		"endItemKey": "120",
-		"endConnectionPointIndex": 0
-	  }
+		{
+			"key": "201",
+			"points": [
+				{ "x": 2160, "y": 1800 },
+				{ "x": 2160, "y": 2340 }
+			],
+			"zIndex": 0,
+			"beginItemKey": "200",
+			"beginConnectionPointIndex": 2,
+			"endItemKey": "202",
+			"endConnectionPointIndex": 0
+		},
+		{
+			"key": "203",
+			"points": [
+				{ "x": 2160, "y": 3420 },
+				{ "x": 2160, "y": 3960 }
+			],
+			"zIndex": 0,
+			"beginItemKey": "202",
+			"beginConnectionPointIndex": 2,
+			"endItemKey": "204",
+			"endConnectionPointIndex": 0
+		},
+		{
+			"key": "208",
+			"points": [
+				{ "x": 3420, "y": 4680 },
+				{ "x": 5760, "y": 4680 }
+			],
+			"zIndex": 0,
+			"texts": { "0.45": "Simulate Outcomes" },
+			"beginItemKey": "204",
+			"beginConnectionPointIndex": 1,
+			"endItemKey": "207",
+			"endConnectionPointIndex": 3
+		},
+		{
+			"key": "210",
+			"points": [
+				{ "x": 6840, "y": 4140 },
+				{ "x": 3420, "y": 2880 }
+			],
+			"zIndex": 0,
+			"beginItemKey": "207",
+			"beginConnectionPointIndex": 0,
+			"endItemKey": "202",
+			"endConnectionPointIndex": 1
+		},
+		{
+			"key": "214",
+			"points": [
+				{ "x": 5220, "y": 9180 },
+				{ "x": 6120, "y": 10440 }
+			],
+			"zIndex": 0,
+			"texts": { "0.77": "Finalize Prediction" },
+			"beginItemKey": "206",
+			"beginConnectionPointIndex": 1,
+			"endItemKey": "212",
+			"endConnectionPointIndex": 0
+		},
+		{
+			"key": "216",
+			"points": [
+				{ "x": 2160, "y": 5400 },
+				{ "x": 2160, "y": 6120 }
+			],
+			"zIndex": 0,
+			"texts": { "0.47": "Refine Algorithm" },
+			"beginItemKey": "204",
+			"beginConnectionPointIndex": 2,
+			"endItemKey": "209",
+			"endConnectionPointIndex": 0
+		},
+		{
+			"key": "220",
+			"points": [
+				{ "x": 3420, "y": 6660 },
+				{ "x": 5760, "y": 6660 }
+			],
+			"zIndex": 0,
+			"texts": { "0.5": "Optimize Model" },
+			"beginItemKey": "209",
+			"beginConnectionPointIndex": 1,
+			"endItemKey": "213",
+			"endConnectionPointIndex": 3
+		},
+		{
+			"key": "222",
+			"points": [
+				{ "x": 6840, "y": 7200 },
+				{ "x": 4500, "y": 8820 }
+			],
+			"zIndex": 0,
+			"beginItemKey": "213",
+			"beginConnectionPointIndex": 2,
+			"endItemKey": "206",
+			"endConnectionPointIndex": 0
+		}
 	],
 	"shapes": [
-	  {
-		"key": "107",
-		"type": "terminator",
-		"text": "Initial Planning",
-		"x": 1440,
-		"y": 1080,
-		"width": 1440,
-		"height": 720,
-		"zIndex": 0
-	  },
-	  {
-		"key": "108",
-		"type": "process",
-		"text": "Conduct Feasibility Study",
-		"x": 900,
-		"y": 2340,
-		"width": 2520,
-		"height": 1080,
-		"zIndex": 0
-	  },
-	  {
-		"key": "118",
-		"type": "decision",
-		"text": "Can we colonize a planet?",
-		"x": 900,
-		"y": 3960,
-		"width": 2520,
-		"height": 1440,
-		"zIndex": 0
-	  },
-	  {
-		"key": "120",
-		"type": "terminator",
-		"text": "Mission Success",
-		"x": 3780,
-		"y": 8640,
-		"width": 1440,
-		"height": 720,
-		"zIndex": 0
-	  },
-	  {
-		"key": "121",
-		"type": "process",
-		"text": "Design Colonization Infrastructure",
-		"x": 5760,
-		"y": 4140,
-		"width": 2160,
-		"height": 1080,
-		"zIndex": 0
-	  },
-	  {
-		"key": "125",
-		"type": "process",
-		"text": "Launch Colony Ship",
-		"x": 1620,
-		"y": 10440,
-		"width": 2520,
-		"height": 1080,
-		"zIndex": 0
-	  },
-	  {
-		"key": "127",
-		"type": "process",
-		"text": "Terraform New Planet",
-		"x": 4860,
-		"y": 10440,
-		"width": 2520,
-		"height": 1080,
-		"zIndex": 0
-	  },
-	  {
-		"key": "131",
-		"type": "process",
-		"text": "Settle Colonists",
-		"x": 900,
-		"y": 6120,
-		"width": 2520,
-		"height": 1080,
-		"zIndex": 0
-	  },
-	  {
-		"key": "133",
-		"type": "process",
-		"text": "Expand Human Presence",
-		"x": 5760,
-		"y": 6120,
-		"width": 2160,
-		"height": 1080,
-		"zIndex": 0
-	  },
-	  {
-		"key": "136",
-		"type": "text",
-		"locked": true,
-		"text": "Plan",
-		"x": 360,
-		"y": 360,
-		"width": 7740,
-		"height": 360,
-		"zIndex": 0,
-		"styleText": {
-		  "font-size": "14pt",
-		  "font-weight": "bold"
+		{
+			"key": "200",
+			"type": "terminator",
+			"text": "Initiate Research",
+			"x": 1440,
+			"y": 1080,
+			"width": 1440,
+			"height": 720,
+			"zIndex": 0
+		},
+		{
+			"key": "202",
+			"type": "process",
+			"text": "Gather Historical Data",
+			"x": 900,
+			"y": 2340,
+			"width": 2520,
+			"height": 1080,
+			"zIndex": 0
+		},
+		{
+			"key": "204",
+			"type": "decision",
+			"text": "Is Data Sufficient?",
+			"x": 900,
+			"y": 3960,
+			"width": 2520,
+			"height": 1440,
+			"zIndex": 0
+		},
+		{
+			"key": "206",
+			"type": "terminator",
+			"text": "Winning Prediction!",
+			"x": 3780,
+			"y": 8640,
+			"width": 1440,
+			"height": 720,
+			"zIndex": 0
+		},
+		{
+			"key": "207",
+			"type": "process",
+			"text": "Analyze Patterns",
+			"x": 5760,
+			"y": 4140,
+			"width": 2160,
+			"height": 1080,
+			"zIndex": 0
+		},
+		{
+			"key": "209",
+			"type": "process",
+			"text": "Develop Prediction Model",
+			"x": 900,
+			"y": 6120,
+			"width": 2520,
+			"height": 1080,
+			"zIndex": 0
+		},
+		{
+			"key": "213",
+			"type": "process",
+			"text": "Test Predictions",
+			"x": 5760,
+			"y": 6120,
+			"width": 2160,
+			"height": 1080,
+			"zIndex": 0
+		},
+		{
+			"key": "212",
+			"type": "process",
+			"text": "Submit Lotto Numbers",
+			"x": 4860,
+			"y": 10440,
+			"width": 2520,
+			"height": 1080,
+			"zIndex": 0
+		},
+		{
+			"key": "215",
+			"type": "text",
+			"locked": true,
+			"text": "Lotto Prediction Plan",
+			"x": 360,
+			"y": 360,
+			"width": 7740,
+			"height": 360,
+			"zIndex": 0,
+			"styleText": {
+				"font-size": "14pt",
+				"font-weight": "bold"
+			}
 		}
-	  }
 	]
-  }
-  
+}
